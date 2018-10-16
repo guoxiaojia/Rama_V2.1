@@ -1,0 +1,139 @@
+#navBox #navBar li {
+  height: 100%; }
+
+.banner {
+  background-color: #fff;
+  display: flex !important; }
+  .banner .banner-left {
+    align-self: center;
+    flex: 1;
+    text-align: center; }
+    .banner .banner-left .title {
+      font-size: 64px;
+      color: #404040;
+      font-weight: 400;
+      font-family: Baskvill; }
+    .banner .banner-left .banner-menu {
+      font-size: 20px;
+      color: #131317; }
+      .banner .banner-left .banner-menu li {
+        margin-top: 50px;
+        cursor: pointer; }
+        .banner .banner-left .banner-menu li span {
+          position: relative;
+          font-family: Baskvill; }
+          .banner .banner-left .banner-menu li span:hover:before {
+            display: block; }
+          .banner .banner-left .banner-menu li span:before {
+            display: none;
+            content: '';
+            position: absolute;
+            left: -30px;
+            top: 5px;
+            width: 0;
+            height: 0;
+            border-top: 5px solid transparent;
+            border-left: 10px solid #131518;
+            border-bottom: 5px solid transparent; }
+  .banner .banner-right {
+    width: 1087px;
+    background: url("./../image/news-img.jpg") no-repeat;
+    background-size: cover; }
+
+.news {
+  display: flex !important;
+  background-color: #fff; }
+  .news .angle-bottom {
+    position: absolute;
+    bottom: 15%;
+    right: 12%;
+    transform: rotate(-90deg); }
+  .news .left-items {
+    width: 50%;
+    height: 100%;
+    position: relative; }
+    .news .left-items .box {
+      text-align: center;
+      /* padding: 62px 0; */
+      height: 820px;
+      margin: 0 auto;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      overflow: hidden; }
+      .news .left-items .box li {
+        padding-top: 16px; }
+        .news .left-items .box li div {
+          position: relative; }
+        .news .left-items .box li .swiper-slide-active img {
+          background: rgba(255, 163, 44, 0.8); }
+        .news .left-items .box li img {
+          padding: 18px;
+          border: 1px solid #d4d4d4;
+          width: 345px;
+          height: 196px; }
+          .news .left-items .box li img:hover {
+            cursor: pointer; }
+        .news .left-items .box li .swiper-slide-active img {
+          width: 443px;
+          height: 255px; }
+        .news .left-items .box li .swiper-slide-active:after {
+          content: '';
+          position: absolute;
+          border: 15px solid #ffad44;
+          border-color: #ffad44 transparent transparent;
+          width: 0;
+          height: 0;
+          bottom: 0;
+          /* left: 0; */
+          transform: rotate(-90deg);
+          top: 0;
+          margin: auto;
+          left: 88%; }
+  .news .right-items {
+    width: 50%;
+    height: 100%;
+    background: url(../image/news-bottom.png) right bottom no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; }
+    .news .right-items .hide {
+      display: none; }
+    .news .right-items .line {
+      display: inline-block;
+      width: 1px;
+      height: 190px;
+      background: #e4e4e4;
+      position: absolute;
+      top: 0; }
+    .news .right-items .content-txt .line2 {
+      display: block;
+      width: 190px;
+      height: 1px;
+      background: #000;
+      margin-bottom: 30px; }
+    .news .right-items .content-txt .title {
+      font-size: 30px;
+      width: 80%;
+      line-height: 36px;
+      padding-bottom: 10px; }
+    .news .right-items .content-txt .txt-item {
+      font-size: 16px;
+      line-height: 30px; }
+      .news .right-items .content-txt .txt-item a {
+        color: #050505; }
+        .news .right-items .content-txt .txt-item a:hover {
+          color: red; }
+
+@media screen and (max-width: 1400px) {
+  .news .left-items .box li .swiper-slide-active:after {
+    left: 90%; } }
+@media screen and (max-width: 1300px) {
+  .news .left-items .box li .swiper-slide-active:after {
+    left: 92%; } }
+
+/*# sourceMappingURL=news.css.map */

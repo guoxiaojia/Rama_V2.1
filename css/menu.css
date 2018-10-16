@@ -1,0 +1,315 @@
+/*
+    fullpage init.css
+*/
+html {
+  overflow: hidden; }
+
+#pageContain {
+  overflow: hidden; }
+
+.page {
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.contain {
+  width: calc(100% - 69px);
+  height: 100%;
+  margin-left: 69px;
+  display: none;
+  position: relative;
+  z-index: 0; }
+
+.current .contain,
+.slide .contain {
+  display: block; }
+
+.current {
+  display: block;
+  z-index: 1; }
+
+.slide {
+  display: block;
+  z-index: 2; }
+
+.swipe {
+  display: block;
+  z-index: 3;
+  transition-duration: 0ms !important;
+  -webkit-transition-duration: 0ms !important; }
+
+/*
+    index navBar.css
+*/
+#navBox {
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 69px;
+  background-color: #fff; }
+  #navBox .navInfo {
+    text-align: center;
+    padding: 50px 0; }
+    #navBox .navInfo .menuIcon {
+      display: inline-block;
+      cursor: pointer; }
+      #navBox .navInfo .menuIcon span {
+        display: block;
+        background-color: #000;
+        height: 3px; }
+        #navBox .navInfo .menuIcon span:first-child {
+          width: 18px; }
+        #navBox .navInfo .menuIcon span:nth-child(2) {
+          width: 32px;
+          margin: 6px 0; }
+        #navBox .navInfo .menuIcon span:last-child {
+          width: 25px; }
+  #navBox #navBar {
+    position: absolute;
+    top: 128px;
+    bottom: 0;
+    width: 100%;
+    padding: 60px 0; }
+    #navBox #navBar .active {
+      color: #000; }
+      #navBox #navBar .active span:after {
+        background-color: #000; }
+    #navBox #navBar li {
+      height: 25%;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 500;
+      color: #b7b7b7;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      #navBox #navBar li:first-child {
+        display: none; }
+      #navBox #navBar li span {
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        position: relative; }
+        #navBox #navBar li span:after {
+          content: "";
+          position: absolute;
+          top: -30px;
+          left: 9px;
+          width: 1px;
+          height: 16px;
+          background-color: #969696; }
+
+/*
+  menu
+*/
+ul, li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 0px;
+  height: 100%;
+  background-color: #fff;
+  z-index: 100;
+  opacity: 0;
+  display: none; }
+  .menu .menu-content {
+    height: calc(100% - 130px);
+    width: 100%;
+    display: flex; }
+    .menu .menu-content .menu-close {
+      width: 69px; }
+      .menu .menu-content .menu-close .icon-close {
+        display: block;
+        width: 26px;
+        height: 26px;
+        background: url(../image/close.png) no-repeat center;
+        margin: 50px auto;
+        cursor: pointer; }
+    .menu .menu-content .menu-list {
+      border: 1px solid #d8d8d8;
+      width: calc( 100% - 69px );
+      display: flex; }
+      .menu .menu-content .menu-list .menu-nav {
+        width: calc( 100% - 276px );
+        display: flex; }
+        .menu .menu-content .menu-list .menu-nav > li {
+          border-right: 1px solid #d8d8d8;
+          width: 16.667%;
+          text-align: center;
+          display: table;
+          height: 100%; }
+          .menu .menu-content .menu-list .menu-nav > li .name {
+            display: table-cell;
+            vertical-align: middle;
+            position: relative;
+            font-size: 20px;
+            color: #000000;
+            position: relative; }
+            .menu .menu-content .menu-list .menu-nav > li .name > a {
+              width: 80%;
+              margin: 0 auto;
+              display: block;
+              color: #000000; }
+            .menu .menu-content .menu-list .menu-nav > li .name span {
+              text-align: left; }
+              .menu .menu-content .menu-list .menu-nav > li .name span:after {
+                content: '';
+                display: block;
+                border-bottom: 1px solid #000;
+                padding: 10px 0 0 0; }
+              .menu .menu-content .menu-list .menu-nav > li .name span i {
+                display: inline-block;
+                width: 8px;
+                height: 8px;
+                background: url(../image/icon/arrow.png) no-repeat center;
+                vertical-align: middle;
+                margin-left: 2px; }
+            .menu .menu-content .menu-list .menu-nav > li .name span, .menu .menu-content .menu-list .menu-nav > li .name em {
+              display: block;
+              width: 100%; }
+            .menu .menu-content .menu-list .menu-nav > li .name em {
+              text-align: right;
+              font-style: normal;
+              font-size: 14px;
+              margin-top: 6px; }
+            .menu .menu-content .menu-list .menu-nav > li .name .child {
+              width: 80%;
+              margin: 40px auto 0 auto;
+              position: absolute;
+              left: 0;
+              right: 0;
+              display: none; }
+              .menu .menu-content .menu-list .menu-nav > li .name .child li {
+                font-size: 14px;
+                text-align: left;
+                margin-bottom: 32px; }
+                .menu .menu-content .menu-list .menu-nav > li .name .child li a {
+                  color: #696969;
+                  line-height: 20px;
+                  text-transform: uppercase; }
+                  .menu .menu-content .menu-list .menu-nav > li .name .child li a:hover {
+                    color: #ed7a00; }
+          .menu .menu-content .menu-list .menu-nav > li:hover:nth-child(1) {
+            background: url(../image/menu1.png) no-repeat top center;
+            background-size: 100% 100%; }
+          .menu .menu-content .menu-list .menu-nav > li:hover:nth-child(2) {
+            background: url(../image/menu2.png) no-repeat top center;
+            background-size: 100% 100%; }
+          .menu .menu-content .menu-list .menu-nav > li:hover:nth-child(3) {
+            background: url(../image/menu3.png) no-repeat top center;
+            background-size: 100% 100%; }
+          .menu .menu-content .menu-list .menu-nav > li:hover:nth-child(4) {
+            background: url(../image/menu4.png) no-repeat top center;
+            background-size: 100% 100%; }
+          .menu .menu-content .menu-list .menu-nav > li:hover:nth-child(5) {
+            background: url(../image/menu5.png) no-repeat top center;
+            background-size: 100% 100%; }
+          .menu .menu-content .menu-list .menu-nav > li:hover:nth-child(6) {
+            background: url(../image/menu6.png) no-repeat top center;
+            background-size: 100% 100%; }
+      .menu .menu-content .menu-list .contact-us {
+        width: 276px;
+        display: table;
+        height: 100%; }
+        .menu .menu-content .menu-list .contact-us .contact-content {
+          display: table-cell;
+          vertical-align: middle;
+          padding-left: 30px;
+          box-sizing: border-box; }
+          .menu .menu-content .menu-list .contact-us .contact-content > img {
+            margin-bottom: 96px; }
+        .menu .menu-content .menu-list .contact-us .contact-part {
+          margin-bottom: 40px; }
+          .menu .menu-content .menu-list .contact-us .contact-part h1 {
+            font-size: 28px;
+            font-weight: normal;
+            color: #141414; }
+          .menu .menu-content .menu-list .contact-us .contact-part p {
+            font-size: 16px;
+            color: #141414;
+            padding: 10px 0; }
+          .menu .menu-content .menu-list .contact-us .contact-part ul {
+            padding: 10px 0;
+            display: flex; }
+            .menu .menu-content .menu-list .contact-us .contact-part ul li {
+              margin-right: 18px;
+              -webkit-transform: translateY(0);
+              -moz-transform: translateY(0);
+              -ms-transform: translateY(0);
+              -o-transform: translateY(0);
+              transform: translateY(0);
+              transition: all ease 0.5s; }
+              .menu .menu-content .menu-list .contact-us .contact-part ul li:hover {
+                -webkit-transform: translateY(-10px);
+                -moz-transform: translateY(-10px);
+                -ms-transform: translateY(-10px);
+                -o-transform: translateY(-10px);
+                transform: translateY(-10px); }
+        .menu .menu-content .menu-list .contact-us:hover {
+          background: url(../image/menu7.png) no-repeat top center; }
+  .menu .menu-footer {
+    text-align: center;
+    padding: 56px 0; }
+    .menu .menu-footer p {
+      font-size: 18px;
+      color: #737373; }
+
+@media (max-width: 1900px) {
+  .menu .menu-content .menu-list .contact-us .contact-content > img {
+    width: 160px; }
+
+  .menu .menu-content .menu-list .contact-us .contact-part h1 {
+    font-size: 24px; }
+
+  .menu .menu-content .menu-list .contact-us .contact-part ul li {
+    margin-right: 8px; }
+
+  .menu .menu-content .menu-list .contact-us .contact-part ul li a img {
+    width: 26px; }
+
+  .menu .menu-content .menu-list .contact-us {
+    width: 220px; }
+
+  .menu .menu-content .menu-list .menu-nav {
+    width: calc( 100% - 220px ); }
+
+  .menu .menu-content .menu-list .menu-nav > li .name {
+    font-size: 16px; } }
+@media (max-width: 1580px) {
+  .menu .menu-content .menu-list .contact-us .contact-content > img {
+    width: 140px; }
+
+  .menu .menu-content .menu-list .contact-us .contact-content {
+    padding-left: 15px; }
+
+  .menu .menu-content .menu-list .contact-us .contact-part p {
+    font-size: 14px; }
+
+  .menu .menu-content .menu-list .contact-us {
+    width: 180px; }
+
+  .menu .menu-content .menu-list .menu-nav {
+    width: calc( 100% - 180px ); } }
+@media (max-width: 1520px) {
+  .menu .menu-content .menu-list .menu-nav > li .name {
+    font-size: 14px; } }
+@media (max-height: 800px) {
+  .menu .menu-content .menu-list .menu-nav > li .name .child {
+    margin-top: 15px; }
+
+  .menu .menu-content .menu-list .menu-nav > li .name .child li {
+    margin-bottom: 15px; } }
+
+/*# sourceMappingURL=menu.css.map */

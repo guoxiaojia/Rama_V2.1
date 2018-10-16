@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rama</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./css/libs/swiper.min.css"> -->
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/news.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/libs/fullpage.min.js"></script>
+    <!-- <script type="text/javascript" src="./js/libs/swiper.min.js"></script> -->
+</head>
+
+<body>
+    <div id="pageContain">
+        <div class="page current">
+            <div class="contain banner">
+               <div class="banner-left">
+                   <h2 class="title">News</h2>
+                   <ul class="banner-menu">
+                       <li><span onclick="javscript:runPage.go(1)">News</span></li>
+                   </ul>
+               </div>
+               <div class="banner-right">
+                   <!-- <div class="right-img">
+                       <a href="#">
+                           <img src="image/news-img.jpg">
+                       </a>
+                   </div> -->
+               </div>
+            </div>
+        </div>
+        <div class="page">
+            <div class="contain news">
+                <div class="left-items">
+                    <ul class="box">
+                        <li>
+                            <div class="swiper-slide">
+                                <img src="image/news1.jpg" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="swiper-slide swiper-slide-active">
+                                <img src="image/news2.jpg" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="swiper-slide">
+                                <img src="image/news3.jpg" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right-items">
+                    <span class="line"></span>
+                    <div class="content-txt hide">
+                        <!-- <p class="title">RAMA1 Reels bilingual production scheduled to release in 2018 named ‘VOTER’</p>
+                        <span class="line2"></span>
+                        <p class="txt-item"><a href="#">1.http://www.raagalahari.com/news/103761/vishnu-manchu-gs-karthik-rama-reels-movie-title--voter.aspx</a></p>
+                        <p class="txt-item"><a href="#">2.http://telugucinema.com/news/vishnu-manchu-bilingual-action-film-launched</a></p>
+                        <p class="txt-item"><a href="#">3.http://www.sify.com/movies/voter-manchu-vishnu-s-next-venture-news-telugu-rdvjlqifjhfha.html</a></p>
+                        <p class="txt-item"><a href="#">4.http://www.greatandhra.com/movies/movie-news/reel-talk-vishnu-manchu-becomes-voter-80749.html</a></p>
+                        <p class="txt-item"><a href="#">5.http://teluguglobal.in/vishnu-manchus-tamil-debut-film-launched/</a></p>
+                        <p class="txt-item"><a href="#">6.http://www.deccanchronicle.com/entertainment/tollywood/210317/vishnu-manchus-next-is-voter.html</a></p> -->
+                    </div>
+                    <div class="content-txt">
+                        <p class="title">RAMA1 Reels bilingual production scheduled to release in 2018 named ‘VOTER’</p>
+                        <span class="line2"></span>
+                        <p class="txt-item"><a href="http://www.raagalahari.com/news/103761/vishnu-manchu-gs-karthik-rama-reels-movie-title--voter.aspx">1.http://www.raagalahari.com/news/103761/vishnu-manchu-gs-karthik-rama-reels-movie-title--voter.aspx</a></p>
+                        <p class="txt-item"><a href="http://telugucinema.com/news/vishnu-manchu-bilingual-action-film-launched">2.http://telugucinema.com/news/vishnu-manchu-bilingual-action-film-launched</a></p>
+                        <p class="txt-item"><a href="http://www.sify.com/movies/voter-manchu-vishnu-s-next-venture-news-telugu-rdvjlqifjhfha.html">3.http://www.sify.com/movies/voter-manchu-vishnu-s-next-venture-news-telugu-rdvjlqifjhfha.html</a></p>
+                        <p class="txt-item"><a href="http://www.greatandhra.com/movies/movie-news/reel-talk-vishnu-manchu-becomes-voter-80749.html">4.http://www.greatandhra.com/movies/movie-news/reel-talk-vishnu-manchu-becomes-voter-80749.html</a></p>
+                        <p class="txt-item"><a href="http://teluguglobal.in/vishnu-manchus-tamil-debut-film-launched/">5.http://teluguglobal.in/vishnu-manchus-tamil-debut-film-launched/</a></p>
+                        <p class="txt-item"><a href="http://www.deccanchronicle.com/entertainment/tollywood/210317/vishnu-manchus-next-is-voter.html">6.http://www.deccanchronicle.com/entertainment/tollywood/210317/vishnu-manchus-next-is-voter.html</a></p>
+                        
+                    </div>
+                    <div class="content-txt hide">
+                        <p class="title">Tamil version of RAMA Reels bilingual production scheduled to release in 2018 named ‘KURAL 388’ Staring Manchu Vishnu & Surabhi in lead roles</p>
+                        <span class="line2"></span>
+                        <p class="txt-item"><a href="http://www.nowrunning.com/movie/21578/tamil/kural-388/cast-and-crew/">1.http://www.nowrunning.com/movie/21578/tamil/kural-388/cast-and-crew/</a></p>
+                        <p class="txt-item"><a href="http://www.nowrunning.com/movie/21578/tamil/kural-388/">2.http://www.nowrunning.com/movie/21578/tamil/kural-388/</a></p>
+                        <p class="txt-item"><a href="http://www.123telugu.com/mnews/vishnu-manchus-next-to-feature-an-inspiring-anthem.html">3.http://www.123telugu.com/mnews/vishnu-manchus-next-to-feature-an-inspiring-anthem.html</a></p>
+                        <p class="txt-item"><a href="http://flickstatus.com/tamil/vishnu-manchu-surabhi-in-kural-388.html">4.http://flickstatus.com/tamil/vishnu-manchu-surabhi-in-kural-388.html</a></p>
+                    </div>
+                </div>
+                <img src="image/busin/busin-2.png" class="angle-bottom">
+            </div>
+        </div>
+    </div>
+
+    <div id="navBox">
+        <div class="navInfo">
+            <div class="menuIcon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <ul id="navBar">
+            <li>
+                <span>Home</span>
+            </li>
+            <li>
+                <span>news</span>
+            </li>
+        </ul>
+    </div>
+    <div class="menu">
+        <div class="menu-content">
+            <div class="menu-close">
+                <i class="icon-close"></i>
+            </div>
+            <div class="menu-list">
+                <ul class="menu-nav">
+                    <li>
+                        <div class="name">
+                            <a href="./index.html">
+                                <span>HOME</span>
+                                <em>01</em>
+                            </a>
+                        </div>
+                        
+                    </li>
+                    <li>
+                        <div class="name">
+                            <a href="./business.html">
+                                <span>BUSINESS<i></i></span>
+                                <em>02</em>
+                            </a>
+                            <ul class="child">
+                                <li class="active"><a href="./business.html?page=1">Chairman Address</a></li>
+                                <li><a href="./business.html?page=2">HEALTH CARE</a></li>
+                                <li><a href="./business.html?page=3">EDUCATION</a></li>
+                                <li><a href="./business.html?page=4">Movie Theme Cafe's</a></li>
+                                <li><a href="./business.html?page=5">PARTNERS</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="name">
+                            <a href="./entertainment.html">
+                                <span>ENTERTAINMENT<i></i></span>
+                                <em>03</em>
+                            </a>
+                            <ul class="child">
+                                <li><a href="./entertainment.html?page=1">Entertainment </a></li>
+                                <li><a href="./entertainment.html?page=2">RAMA APP</a></li>
+                                <li><a href="./entertainment.html?page=4">RAMA REELS</a></li>
+                                <li><a href="./entertainment.html?page=5">rama china</a></li>
+                                <li><a href="./entertainment.html?page=6">Royal Asian Movie Awards</a></li>
+                            </ul>
+                        </div>
+                       
+                    </li>
+                    <li>
+                        
+                        <div class="name">
+                            <a href="./movies.html">
+                                <span>MOVIES<i></i></span>
+                                <em>04</em>
+                            </a>
+                            <ul class="child">
+                                <li><a href="./movies.html?page=1">UPCOMING MOVIES</a></li>
+                                <li><a href="./movies.html?page=2">RECENT MOVIES</a></li>
+                                <li><a href="./movies.html?page=3">PAST PAST MOVIES</a></li>
+                            </ul>                       
+                        </div>
+                        
+                    </li>
+                    <li>
+                        
+                        <div class="name">
+                            <a href="./news.html">
+                                <span>NEWS</span>
+                                <em>05</em>
+                            </a>
+                        </div>
+                        
+                    </li>
+                    <li>
+                        <div class="name">
+                            <a href="./about.html">
+                                <span>ABOUT US<i></i></span>
+                                <em>06</em>
+                            </a>
+                            <ul class="child">
+                                <li><a href="./about.html?page=1">CHAIRMAN</a></li>
+                                <li><a href="./about.html?page=2">MANAGEMENT TEAM</a></li>
+                            </ul>
+                        </div>
+                        
+                    </li>
+                </ul>
+                <div class="contact-us">
+                    <div class="contact-content">
+                        <img src="image/contact-logo.png" alt="">
+                        <div class="contact-part">
+                            <h1>Contact</h1>
+                            <p>info@rama.world.com</p>
+                        </div>
+                        <div class="contact-part">
+                            <h1>Getin Touch</h1>
+                            <ul class="way">
+                                <li><a href="javascript:;"><img src="image/icon/icon1.png" alt=""></a></li>
+                                <li><a href="javascript:;"><img src="image/icon/icon2.png" alt=""></a></li>
+                                <li><a href="javascript:;"><img src="image/icon/icon3.png" alt=""></a></li>
+                                <li><a href="javascript:;"><img src="image/icon/icon4.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="menu-footer">
+            <p>© 2018 All Copy rights reseved by Rama Reels.</p>
+        </div>
+    </div>
+    <script src="./js/menu.js"></script>
+    <script>
+        var runPage;
+        var page;
+        if(~location.href.indexOf('page')) {
+            page = Number(location.href.substr(-1));
+        }
+        runPage = new FullPage({
+            id: 'pageContain',
+            slideTime: 800,
+            effect: {
+                transform: {
+                    translate: 'X'
+                },
+                opacity: [0, 1]
+            },
+            mode: 'wheel, touch, nav:navBar',
+            easing: 'ease',
+            start: page
+        });
+
+        $(function(){
+            $('.news .left-items .box li').click(function(){
+                var index = $(this).index();
+                $('.news .left-items .box li').children('div').removeClass('swiper-slide-active');
+                $(this).children('div').addClass('swiper-slide-active');
+                $('.news .right-items .content-txt').eq(index).removeClass('hide').siblings().addClass('hide');
+            })    
+        })
+    </script>
+</body>
+
+</html>

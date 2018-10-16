@@ -1,0 +1,202 @@
+
+
+/*-----------------------------------*/
+/* Global Reset */
+/*-----------------------------------*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block}
+body {
+    line-height: 1; }
+ol, ul {
+    list-style: none; }
+blockquote, q {
+    quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none; }
+table {
+    border-collapse: collapse;
+    border-spacing: 0}
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; }
+/* CSS Document */
+
+body { background-position: center top #333;}
+.timer-wapper{
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+    
+.timer-box {
+    /*padding: 26px 20px;*/
+    max-width: 650px;
+    margin: 0px auto;
+    text-align: center;
+    /*margin-top: 60px;*/
+    
+    
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    
+    /* -moz-box-shadow: 0 0 5px #000;
+    -webkit-box-shadow: 0 0 5px#000;
+    box-shadow: 0 0 5px #000;
+    border: 1px solid #fff; */
+    }
+/** Countdown */
+
+#countdown {
+    display: inline-block;
+    margin-top: 12px;
+}
+#countdown .dash {
+    width: 127px;
+    height: 125px;
+    background: transparent url(../../image/line-timer.png) center no-repeat;
+    /*background: transparent;*/
+    background-size: 100% 100%;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+#countdown .dash:first-child{
+    margin-left:0;
+}
+#countdown .dash:last-child{
+    margin-right:0;
+}
+#countdown .dash .digit {
+    font-size: 80px;
+    font-weight: bold;
+    float: left;
+    width: 45px;
+    text-align: center;
+    font-family: Arial;
+    color: #d6a156;
+    position: relative;
+    margin: 12px 0 0 13px;
+    padding-top: 10px;
+}
+#countdown .dash .digit:nth-child(2) {
+    margin-left: 15px;
+}
+#countdown .dash .digit:nth-child(3) {
+    margin-left: 8px;
+}
+
+#countdown .dash_title {
+    position: absolute;
+    display: block;
+    bottom: -25px;
+    text-align:center;
+    width:127px;
+    font-size: 18px;
+    color: #ffffff;
+}
+.progress-bar{
+    height: 80px;
+}
+.bar-inner{
+    position:relative;
+    top:39px;
+    height:1px;
+    background-color:#d6a156;
+}
+.progress{
+    position: absolute;
+    height: 100%;
+    background:#000;
+}
+.progress-btn-warpper {
+    position:absolute;
+    left: -8px;
+    top:-40px;
+    width: 80px;
+    height: 80px;
+}
+.progress-btn{
+    position: relative;
+    top: 18px;
+    left: 8px;
+    box-sizing: border-box;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+@media (max-width: 660px) {
+    .timer-box{
+        width: 400px;
+    }
+    #countdown{
+        margin-top: 0;
+    }
+    #countdown .dash{
+        margin-left: 3px;
+        width: 86px;
+        height: 88px;
+        background-size:100%;
+    }
+    #countdown .dash .digit{
+        width: 42px;
+        font-size: 42px;
+        margin:0;
+        padding-top: 23px;
+    }
+    #countdown .dash_title{
+        width: 86px;
+    }
+    #countdown .dash .digit:nth-child(2) {
+        margin-left: 5px;
+    }
+    #countdown .dash .digit:nth-child(3) {
+        margin-left: -6px;
+    }
+}
+@media (max-width: 410px) {
+    .timer-box{
+        width: 370px;
+        padding: 15px 10px;
+    }
+    #countdown{
+        margin-top: 0;
+    }
+    #countdown .dash{
+        margin-left: 1px;
+    }
+}
+@media (max-width: 370px) {
+    .timer-box{
+        width: 320px;
+        padding: 15px 10px;
+    }
+    #countdown{
+        margin-top: 0;
+    }
+    #countdown .dash{
+        margin-left: 1px;
+        width: 74px;
+        height: 74px;
+    }
+    #countdown .dash .digit{
+        width: 36px;
+        font-size: 36px;
+        margin:0;
+        padding-top: 19px;
+    }
+    #countdown .dash_title{
+        width: 45px;
+        font-size: 10px;
+        padding-left: 25px;
+        bottom: -14px;
+    }
+}

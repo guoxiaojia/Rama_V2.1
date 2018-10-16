@@ -1,0 +1,647 @@
+{
+    "code": 0,
+    "data": [{
+            "upcoming": [
+                {
+                    "Telugu": [
+                        {
+                            "image": "01_SHOWTIME.jpg",
+                            "title": "Cast & Crew <br> (TELUGU FEATURE FILM) ",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 24 January 2014 ",
+                                "Directed by : Chandra Siddhartha",
+                                "Produced by : Poodota Sudheer Kumar",
+                                "Written by : S. S. Kanchi",
+                                "Music by : M. M. Keeravani",
+                                "Cinematography : Chandramouli",
+                                "Production company : Cherry Films"
+                            ]
+                        },
+                        {
+                            "image": "02_VOTER.jpg",
+                            "title": "Cast & Crew <br> (TELUGU FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 2016 ‧ Romance/Comedy ‧ 2h 7m",
+                                "Naruda DONORuda is a 2016 Telugu film by director Mallik Ram. The film was released on 4 November 2016 ",
+                                "Story by : Juhi Chaturvedi",
+                                "Screenplay : Kittu Vissapragada, Rachakonda Vidya Sagar ",
+                                "Producers : John Sudheer Pudhota,D. Supriya"
+                            ]
+                        },
+                        {
+                            "image": "KAGITAM PADAVALU.jpg",
+                            "title": "Cast & Crew <br> (TELUGU FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 2016 ‧ Romance/Comedy ‧ 2h 7m",
+                                "Naruda DONORuda is a 2016 Telugu film by director Mallik Ram. The film was released on 4 November 2016 ",
+                                "Story by : Juhi Chaturvedi",
+                                "Screenplay : Kittu Vissapragada, Rachakonda Vidya Sagar ",
+                                "Producers : John Sudheer Pudhota,D. Supriya"
+                            ]
+                        },
+                        {
+                            "image": "OVER ACTION_(TELUGU).jpg",
+                            "title": "Cast & Crew <br> (TELUGU FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 2016 ‧ Romance/Comedy ‧ 2h 7m",
+                                "Naruda DONORuda is a 2016 Telugu film by director Mallik Ram. The film was released on 4 November 2016 ",
+                                "Story by : Juhi Chaturvedi",
+                                "Screenplay : Kittu Vissapragada, Rachakonda Vidya Sagar ",
+                                "Producers : John Sudheer Pudhota,D. Supriya"
+                            ]
+                        },
+                        {
+                            "image": "Prematho Oka Kowgilintha (TELUGU).jpg",
+                            "title": "Cast & Crew <br> (TELUGU FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 2016 ‧ Romance/Comedy ‧ 2h 7m",
+                                "Naruda DONORuda is a 2016 Telugu film by director Mallik Ram. The film was released on 4 November 2016 ",
+                                "Story by : Juhi Chaturvedi",
+                                "Screenplay : Kittu Vissapragada, Rachakonda Vidya Sagar ",
+                                "Producers : John Sudheer Pudhota,D. Supriya"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Tamil": [
+                        {
+                            "image": "KACHINERAM (Tamil).jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : A",
+                                "BANNER : RAMA REELS ",
+                                "RIGHTS HOLDER : JOHN SUDHEER KUMAR",
+                                "TECHNICIANS : -",
+                                "DIRECTOR : Ravi Parghvan",
+                                "MUSIC : Ambu Rajesh"
+                            ]
+                        },
+                        {
+                            "image": "KURAL 388 (Tamil).jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : A",
+                                "BANNER : RAMA REELS ",
+                                "RIGHTS HOLDER : JOHN SUDHEER KUMAR",
+                                "TECHNICIANS : -",
+                                "DIRECTOR : Ravi Parghvan",
+                                "MUSIC : Ambu Rajesh"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Kanada": [
+                        {
+                            "image": "SAMIBA(Kanda).jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : A",
+                                "BANNER : RAMA REELS ",
+                                "RIGHTS HOLDER : JOHN SUDHEER KUMAR",
+                                "TECHNICIANS : -",
+                                "DIRECTOR : Ravi Parghvan",
+                                "MUSIC : Ambu Rajesh"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Hindi": [
+                        {
+                            "image": "SHOWTIME (HINDI).jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : A",
+                                "BANNER : RAMA REELS ",
+                                "RIGHTS HOLDER : JOHN SUDHEER KUMAR",
+                                "TECHNICIANS : -",
+                                "DIRECTOR : Ravi Parghvan",
+                                "MUSIC : Ambu Rajesh"
+                            ]
+                        },
+                        {
+                            "image": "THE SOUL (HINDI).jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : A",
+                                "BANNER : RAMA REELS ",
+                                "RIGHTS HOLDER : JOHN SUDHEER KUMAR",
+                                "TECHNICIANS : -",
+                                "DIRECTOR : Ravi Parghvan",
+                                "MUSIC : Ambu Rajesh"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "recent": [
+                {
+                    "Telugu": [
+                        {
+                            "image": "Emo_Gurram_Egaravach (TELUGU).jpg",
+                            "title": "Cast & Crew <br> (TELUGU FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Directed by : Chandra Siddhartha ",
+                                "Produced by : Poodota Sudheer Kumar",
+                                "Written by : S. S. Kanchi",
+                                "Music by : M. M. Keeravani",
+                                "Cinematography : Chandramouli",
+                                "Production company : Cherry Films"
+                            ]
+                        },
+                        {
+                            "image": "Naruda-donaruda (telugu).jpg",
+                            "title": "Cast & Crew <br> (TELUGU FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 2016 ‧ Romance/Comedy ‧ 2h 7m",
+                                "Naruda DONORuda is a 2016 Telugu film by director Mallik Ram. The film was released on 4 November 2016 ",
+                                "Story by : Juhi Chaturvedi",
+                                "Screenplay : Kittu Vissapragada, Rachakonda Vidya Sagar ",
+                                "Producers : : John Sudheer Pudhota,D. Supriya"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Tamil": [
+                        {
+                            "image": "Kadaisi Benchi Karthi (tamil).jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : A",
+                                "BANNER : RAMA REELS ",
+                                "RIGHTS HOLDER : JOHN SUDHEER KUMAR",
+                                "TECHNICIANS : -",
+                                "DIRECTOR : Ravi Parghvan",
+                                "MUSIC : Ambu Rajesh"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "past": [
+                {
+                    "Hindi": [
+                        {
+                            "image": "THRILLER (Hindi).jpg",
+                            "title": "Cast & Crew <br> (TELUGU FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 24 January 2014 ",
+                                "Directed by : Chandra Siddhartha ",
+                                "Produced by : Poodota Sudheer Kumar",
+                                "Written by : Written by",
+                                "Music by : M. M. Keeravani",
+                                "Cinematography : Chandramouli",
+                                "Production company : Cherry Films"
+                            ]
+                        },
+                        {
+                            "image": "SALAAM HYDERABAD (Hindi).jpg",
+                            "title": "Cast & Crew <br> (TELUGU FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 24 January 2014 ",
+                                "Directed by : Chandra Siddhartha ",
+                                "Produced by : Poodota Sudheer Kumar",
+                                "Written by : Written by",
+                                "Music by : M. M. Keeravani",
+                                "Cinematography : Chandramouli",
+                                "Production company : Cherry Films"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Tamil": [
+                        {
+                            "image": "BHAVANI IPS (tamil).jpg",
+                            "title": "Cast & Crew <br> (TELUGU FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 24 January 2014 ",
+                                "Directed by : Chandra Siddhartha ",
+                                "Produced by : Poodota Sudheer Kumar",
+                                "Written by : Written by",
+                                "Music by : M. M. Keeravani",
+                                "Cinematography : Chandramouli",
+                                "Production company : Cherry Films"
+                            ]
+                        },
+                        {
+                            "image": "DIGUL (tamil).jpg",
+                            "title": "Cast & Crew <br> (TELUGU FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 24 January 2014 ",
+                                "Directed by : Chandra Siddhartha ",
+                                "Produced by : Poodota Sudheer Kumar",
+                                "Written by : Written by",
+                                "Music by : M. M. Keeravani",
+                                "Cinematography : Chandramouli",
+                                "Production company : Cherry Films"
+                            ]
+                        },
+                        {
+                            "image": "MANTHRA (tamil.jpg",
+                            "title": "Cast & Crew <br> (TELUGU FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 24 January 2014 ",
+                                "Directed by : Chandra Siddhartha ",
+                                "Produced by : Poodota Sudheer Kumar",
+                                "Written by : Written by",
+                                "Music by : M. M. Keeravani",
+                                "Cinematography : Chandramouli",
+                                "Production company : Cherry Films"
+                            ]
+                        },
+                        {
+                            "image": "RAJA MAHARAJA (tamil).jpg",
+                            "title": "Cast & Crew <br> (TELUGU FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 24 January 2014 ",
+                                "Directed by : Chandra Siddhartha ",
+                                "Produced by : Poodota Sudheer Kumar",
+                                "Written by : Written by",
+                                "Music by : M. M. Keeravani",
+                                "Cinematography : Chandramouli",
+                                "Production company : Cherry Films"
+                            ]
+                        },
+                        {
+                            "image": "THIRU RANGA (tamil).jpg",
+                            "title": "Cast & Crew <br> (TELUGU FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 24 January 2014 ",
+                                "Directed by : Chandra Siddhartha ",
+                                "Produced by : Poodota Sudheer Kumar",
+                                "Written by : Written by",
+                                "Music by : M. M. Keeravani",
+                                "Cinematography : Chandramouli",
+                                "Production company : Cherry Films"
+                            ]
+                        },
+                        {
+                            "image": "VISARANAI (tamil).jpg",
+                            "title": "Cast & Crew <br> (TELUGU FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 24 January 2014 ",
+                                "Directed by : Chandra Siddhartha ",
+                                "Produced by : Poodota Sudheer Kumar",
+                                "Written by : Written by",
+                                "Music by : M. M. Keeravani",
+                                "Cinematography : Chandramouli",
+                                "Production company : Cherry Films"
+                            ]
+                        },
+                        {
+                            "image": "Viyram (tamil).jpg",
+                            "title": "Cast & Crew <br> (TELUGU FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 24 January 2014 ",
+                                "Directed by : Chandra Siddhartha ",
+                                "Produced by : Poodota Sudheer Kumar",
+                                "Written by : Written by",
+                                "Music by : M. M. Keeravani",
+                                "Cinematography : Chandramouli",
+                                "Production company : Cherry Films"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Telugu":[
+                        {
+                            "image": "2 much.jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release  : 24 January 2014 ",
+                                "Directed by : Chandra Siddhartha ",
+                                "Produced by : Poodota Sudheer Kumar",
+                                "Written by : S. S. Kanchi ",
+                                "Music by  : M. M. Keeravani",
+                                "Cinematography : Chandramouli",
+                                "Production company : Cherry Films"
+                            ]
+                        },
+                        {
+                            "image": "7 prema kadhalu 2.jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 2016 ‧ Romance/Comedy ‧ 2h 7m",
+                                "Naruda DONORuda is a 2016 Telugu film by director Mallik Ram. The film was released on 4 November 2016 ",
+                                "Story by : Juhi Chaturvedi ",
+                                "Screenplay : Kittu Vissapragada, Rachakonda Vidya Sagar ",
+                                "Producers : John Sudheer Pudhota,D. Supriya"
+                            ]
+                        },
+                        {
+                            "image": "andhala deevilo.jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 2016 ‧ Romance/Comedy ‧ 2h 7m",
+                                "Naruda DONORuda is a 2016 Telugu film by director Mallik Ram. The film was released on 4 November 2016 ",
+                                "Story by : Juhi Chaturvedi ",
+                                "Screenplay : Kittu Vissapragada, Rachakonda Vidya Sagar ",
+                                "Producers : John Sudheer Pudhota,D. Supriya"
+                            ]
+                        },
+                        {
+                            "image": "andhari bandhuvaya.jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 2016 ‧ Romance/Comedy ‧ 2h 7m",
+                                "Naruda DONORuda is a 2016 Telugu film by director Mallik Ram. The film was released on 4 November 2016 ",
+                                "Story by : Juhi Chaturvedi ",
+                                "Screenplay : Kittu Vissapragada, Rachakonda Vidya Sagar ",
+                                "Producers : John Sudheer Pudhota,D. Supriya"
+                            ]
+                        },
+                        {
+                            "image": "bala surya 1.jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 2016 ‧ Romance/Comedy ‧ 2h 7m",
+                                "Naruda DONORuda is a 2016 Telugu film by director Mallik Ram. The film was released on 4 November 2016 ",
+                                "Story by : Juhi Chaturvedi ",
+                                "Screenplay : Kittu Vissapragada, Rachakonda Vidya Sagar ",
+                                "Producers : John Sudheer Pudhota,D. Supriya"
+                            ]
+                        },
+                        {
+                            "image": "band baaja 2.jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 2016 ‧ Romance/Comedy ‧ 2h 7m",
+                                "Naruda DONORuda is a 2016 Telugu film by director Mallik Ram. The film was released on 4 November 2016 ",
+                                "Story by : Juhi Chaturvedi ",
+                                "Screenplay : Kittu Vissapragada, Rachakonda Vidya Sagar ",
+                                "Producers : John Sudheer Pudhota,D. Supriya"
+                            ]
+                        },
+                        {
+                            "image": "bhavani IPS.jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 2016 ‧ Romance/Comedy ‧ 2h 7m",
+                                "Naruda DONORuda is a 2016 Telugu film by director Mallik Ram. The film was released on 4 November 2016 ",
+                                "Story by : Juhi Chaturvedi ",
+                                "Screenplay : Kittu Vissapragada, Rachakonda Vidya Sagar ",
+                                "Producers : John Sudheer Pudhota,D. Supriya"
+                            ]
+                        },
+                        {
+                            "image": "chudalani cheppalani.jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 2016 ‧ Romance/Comedy ‧ 2h 7m",
+                                "Naruda DONORuda is a 2016 Telugu film by director Mallik Ram. The film was released on 4 November 2016 ",
+                                "Story by : Juhi Chaturvedi ",
+                                "Screenplay : Kittu Vissapragada, Rachakonda Vidya Sagar ",
+                                "Producers : John Sudheer Pudhota,D. Supriya"
+                            ]
+                        },
+                        {
+                            "image": "edandhi maavari varasa 1.jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 2016 ‧ Romance/Comedy ‧ 2h 7m",
+                                "Naruda DONORuda is a 2016 Telugu film by director Mallik Ram. The film was released on 4 November 2016 ",
+                                "Story by : Juhi Chaturvedi ",
+                                "Screenplay : Kittu Vissapragada, Rachakonda Vidya Sagar ",
+                                "Producers : John Sudheer Pudhota,D. Supriya"
+                            ]
+                        },
+                        {
+                            "image": "enti bava mareenu.jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 2016 ‧ Romance/Comedy ‧ 2h 7m",
+                                "Naruda DONORuda is a 2016 Telugu film by director Mallik Ram. The film was released on 4 November 2016 ",
+                                "Story by : Juhi Chaturvedi ",
+                                "Screenplay : Kittu Vissapragada, Rachakonda Vidya Sagar ",
+                                "Producers : John Sudheer Pudhota,D. Supriya"
+                            ]
+                        },
+                        {
+                            "image": "giliginthalu.jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 2016 ‧ Romance/Comedy ‧ 2h 7m",
+                                "Naruda DONORuda is a 2016 Telugu film by director Mallik Ram. The film was released on 4 November 2016 ",
+                                "Story by : Juhi Chaturvedi ",
+                                "Screenplay : Kittu Vissapragada, Rachakonda Vidya Sagar ",
+                                "Producers : John Sudheer Pudhota,D. Supriya"
+                            ]
+                        },
+                        {
+                            "image": "julaie.jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 2016 ‧ Romance/Comedy ‧ 2h 7m",
+                                "Naruda DONORuda is a 2016 Telugu film by director Mallik Ram. The film was released on 4 November 2016 ",
+                                "Story by : Juhi Chaturvedi ",
+                                "Screenplay : Kittu Vissapragada, Rachakonda Vidya Sagar ",
+                                "Producers : John Sudheer Pudhota,D. Supriya"
+                            ]
+                        },
+                        {
+                            "image": "lock revised 2.jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 2016 ‧ Romance/Comedy ‧ 2h 7m",
+                                "Naruda DONORuda is a 2016 Telugu film by director Mallik Ram. The film was released on 4 November 2016 ",
+                                "Story by : Juhi Chaturvedi ",
+                                "Screenplay : Kittu Vissapragada, Rachakonda Vidya Sagar ",
+                                "Producers : John Sudheer Pudhota,D. Supriya"
+                            ]
+                        },
+                        {
+                            "image": "love to live.jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 2016 ‧ Romance/Comedy ‧ 2h 7m",
+                                "Naruda DONORuda is a 2016 Telugu film by director Mallik Ram. The film was released on 4 November 2016 ",
+                                "Story by : Juhi Chaturvedi ",
+                                "Screenplay : Kittu Vissapragada, Rachakonda Vidya Sagar ",
+                                "Producers : John Sudheer Pudhota,D. Supriya"
+                            ]
+                        },
+                        {
+                            "image": "meera.jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 2016 ‧ Romance/Comedy ‧ 2h 7m",
+                                "Naruda DONORuda is a 2016 Telugu film by director Mallik Ram. The film was released on 4 November 2016 ",
+                                "Story by : Juhi Chaturvedi ",
+                                "Screenplay : Kittu Vissapragada, Rachakonda Vidya Sagar ",
+                                "Producers : John Sudheer Pudhota,D. Supriya"
+                            ]
+                        },
+                        {
+                            "image": "naa allari.jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 2016 ‧ Romance/Comedy ‧ 2h 7m",
+                                "Naruda DONORuda is a 2016 Telugu film by director Mallik Ram. The film was released on 4 November 2016 ",
+                                "Story by : Juhi Chaturvedi ",
+                                "Screenplay : Kittu Vissapragada, Rachakonda Vidya Sagar ",
+                                "Producers : John Sudheer Pudhota,D. Supriya"
+                            ]
+                        },
+                        {
+                            "image": "nuvvala nenila 2.jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 2016 ‧ Romance/Comedy ‧ 2h 7m",
+                                "Naruda DONORuda is a 2016 Telugu film by director Mallik Ram. The film was released on 4 November 2016 ",
+                                "Story by : Juhi Chaturvedi ",
+                                "Screenplay : Kittu Vissapragada, Rachakonda Vidya Sagar ",
+                                "Producers : John Sudheer Pudhota,D. Supriya"
+                            ]
+                        },
+                        {
+                            "image": "nyayam kaavali.jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 2016 ‧ Romance/Comedy ‧ 2h 7m",
+                                "Naruda DONORuda is a 2016 Telugu film by director Mallik Ram. The film was released on 4 November 2016 ",
+                                "Story by : Juhi Chaturvedi ",
+                                "Screenplay : Kittu Vissapragada, Rachakonda Vidya Sagar ",
+                                "Producers : John Sudheer Pudhota,D. Supriya"
+                            ]
+                        },
+                        {
+                            "image": "pelli kosam.jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 2016 ‧ Romance/Comedy ‧ 2h 7m",
+                                "Naruda DONORuda is a 2016 Telugu film by director Mallik Ram. The film was released on 4 November 2016 ",
+                                "Story by : Juhi Chaturvedi ",
+                                "Screenplay : Kittu Vissapragada, Rachakonda Vidya Sagar ",
+                                "Producers : John Sudheer Pudhota,D. Supriya"
+                            ]
+                        },
+                        {
+                            "image": "prema sandhadi.jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 2016 ‧ Romance/Comedy ‧ 2h 7m",
+                                "Naruda DONORuda is a 2016 Telugu film by director Mallik Ram. The film was released on 4 November 2016 ",
+                                "Story by : Juhi Chaturvedi ",
+                                "Screenplay : Kittu Vissapragada, Rachakonda Vidya Sagar ",
+                                "Producers : John Sudheer Pudhota,D. Supriya"
+                            ]
+                        },
+                        {
+                            "image": "preminchaka.jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 2016 ‧ Romance/Comedy ‧ 2h 7m",
+                                "Naruda DONORuda is a 2016 Telugu film by director Mallik Ram. The film was released on 4 November 2016 ",
+                                "Story by : Juhi Chaturvedi ",
+                                "Screenplay : Kittu Vissapragada, Rachakonda Vidya Sagar ",
+                                "Producers : John Sudheer Pudhota,D. Supriya"
+                            ]
+                        },
+                        {
+                            "image": "sahasra 1.jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 2016 ‧ Romance/Comedy ‧ 2h 7m",
+                                "Naruda DONORuda is a 2016 Telugu film by director Mallik Ram. The film was released on 4 November 2016 ",
+                                "Story by : Juhi Chaturvedi ",
+                                "Screenplay : Kittu Vissapragada, Rachakonda Vidya Sagar ",
+                                "Producers : John Sudheer Pudhota,D. Supriya"
+                            ]
+                        },
+                        {
+                            "image": "thriller.jpg",
+                            "title": "Cast & Crew <br> (TAMIL FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 2016 ‧ Romance/Comedy ‧ 2h 7m",
+                                "Naruda DONORuda is a 2016 Telugu film by director Mallik Ram. The film was released on 4 November 2016 ",
+                                "Story by : Juhi Chaturvedi ",
+                                "Screenplay : Kittu Vissapragada, Rachakonda Vidya Sagar ",
+                                "Producers : John Sudheer Pudhota,D. Supriya"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Malayalam": [
+                        {
+                            "image": "NINAKA ENIKA-MALAYALAM.jpg",
+                            "title": "Cast & Crew <br> (TELUGU FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 24 January 2014 ",
+                                "Directed by : Chandra Siddhartha ",
+                                "Produced by : Poodota Sudheer Kumar",
+                                "Written by : Written by",
+                                "Music by : M. M. Keeravani",
+                                "Cinematography : Chandramouli",
+                                "Production company : Cherry Films"
+                            ]
+                        },
+                        {
+                            "image": "RAJA VELLIRAJA (Malayalam).jpg",
+                            "title": "Cast & Crew <br> (TELUGU FEATURE FILM)",
+                            "text": [
+                                "CBFC : U/A",
+                                "Initial Release : 24 January 2014 ",
+                                "Directed by : Chandra Siddhartha ",
+                                "Produced by : Poodota Sudheer Kumar",
+                                "Written by : Written by",
+                                "Music by : M. M. Keeravani",
+                                "Cinematography : Chandramouli",
+                                "Production company : Cherry Films"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

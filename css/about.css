@@ -1,0 +1,432 @@
+#navBox #navBar li {
+  height: 50%; }
+
+.banner {
+  background-color: #fff;
+  display: flex !important; }
+  .banner .banner-left {
+    align-self: center;
+    flex: 1;
+    text-align: center; }
+    .banner .banner-left .title {
+      font-size: 64px;
+      color: #404040;
+      font-weight: 400;
+      font-family: Baskvill; }
+    .banner .banner-left .banner-menu {
+      font-size: 20px;
+      color: #131317; }
+      .banner .banner-left .banner-menu li {
+        margin-top: 50px;
+        cursor: pointer; }
+        .banner .banner-left .banner-menu li span {
+          position: relative;
+          font-family: Baskvill; }
+          .banner .banner-left .banner-menu li span:hover:before {
+            display: block; }
+          .banner .banner-left .banner-menu li span:before {
+            display: none;
+            content: '';
+            position: absolute;
+            left: -30px;
+            top: 5px;
+            width: 0;
+            height: 0;
+            border-top: 5px solid transparent;
+            border-left: 10px solid #131518;
+            border-bottom: 5px solid transparent; }
+  .banner .banner-right {
+    width: 1087px;
+    background: url("./../image/about_us/about-ban.jpg") no-repeat;
+    background-size: cover; }
+
+.chairman {
+  background-color: #252527;
+  background-image: url("../image/about_us/about_bg0.jpg");
+  background-size: 100% 100%;
+  display: flex !important;
+  color: #fff;
+  padding-left: 163px;
+  box-sizing: border-box;
+  justify-content: space-around; }
+  .chairman .chairman_img {
+    width: 543px;
+    height: 696px;
+    background-image: url("../image/about_us/about_bg1.jpg");
+    background-size: 100% 100%;
+    padding: 75px 25px;
+    box-sizing: border-box;
+    align-self: center; }
+    .chairman .chairman_img img {
+      display: inline-block;
+      width: 100%;
+      height: auto; }
+    .chairman .chairman_img p {
+      margin-top: 110px;
+      margin-bottom: 20px;
+      font-size: 30px;
+      font-family: "Baskvill"; }
+    .chairman .chairman_img span {
+      font-size: 42px;
+      font-family: "Baskvill";
+      padding-left: 60px;
+      position: relative; }
+      .chairman .chairman_img span:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 20px;
+        border-top: 5px solid transparent;
+        border-left: 10px solid #ffa32c;
+        border-bottom: 5px solid transparent; }
+  .chairman .chairman_center {
+    width: 630px;
+    height: 100%;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    text-align: right;
+    justify-content: flex-end; }
+    .chairman .chairman_center p {
+      font-size: 40px;
+      font-family: "Baskvill";
+      text-align: center;
+      margin-bottom: 24px;
+      margin-top: 180px; }
+    .chairman .chairman_center span {
+      display: inline-block;
+      width: 292px;
+      height: 53px;
+      padding-right: 15px;
+      box-sizing: border-box;
+      background: #f8b55e;
+      position: relative;
+      font-size: 46px;
+      text-align: right;
+      line-height: 34px;
+      font-family: "Baskvill";
+      color: #0a0a0a; }
+      .chairman .chairman_center span:before {
+        content: '';
+        position: absolute;
+        right: -56px;
+        top: -12px;
+        width: 340px;
+        height: 1px;
+        border-bottom: 1px solid #353535; }
+      .chairman .chairman_center span:after {
+        content: '';
+        position: absolute;
+        right: -12px;
+        top: -250px;
+        width: 1px;
+        height: 510px;
+        border-left: 1px solid #353535; }
+  .chairman .introduction {
+    flex: 1;
+    height: 100%;
+    padding: 170px 190px 0 30px;
+    box-sizing: border-box;
+    position: relative; }
+    .chairman .introduction p {
+      font-size: 16px;
+      font-family: "Baskvill";
+      margin-bottom: 26px;
+      line-height: 24px; }
+    .chairman .introduction .the_big:first-letter {
+      font-size: 60px;
+      padding-right: 5px;
+      position: relative;
+      top: 40px;
+      left: 0px; }
+    .chairman .introduction .tranl {
+      position: absolute;
+      left: 30px;
+      bottom: 125px; }
+
+.the_team {
+  background: #fff;
+  display: flex !important;
+  justify-content: space-between; }
+  .the_team .team_left {
+    width: 346px;
+    height: 100%;
+    background-image: url("../image/about_us/about_bg2.jpg");
+    background-size: cover;
+    background-position: top right;
+    position: relative; }
+    .the_team .team_left span {
+      display: inline-block;
+      position: absolute;
+      left: 38%;
+      bottom: 300px;
+      z-index: 3; }
+      .the_team .team_left span:before {
+        content: '';
+        width: 185px;
+        height: 1px;
+        position: absolute;
+        top: 0px;
+        left: 30px;
+        border-bottom: 1px dashed #ffa32c; }
+      .the_team .team_left span p {
+        font-size: 42px;
+        color: #ffa32c;
+        font-family: "Baskvill";
+        text-align: right;
+        text-transform: uppercase;
+        margin-top: 25px;
+        padding-left: 30px; }
+  .the_team .team_right {
+    padding: 80px 0 0 40px;
+    width: 1284px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    .the_team .team_right p {
+      font-size: 26px;
+      color: #757575;
+      font-family: "Baskvill";
+      margin-bottom: 20px;
+      position: relative; }
+      .the_team .team_right p:nth-child(2)::before {
+        content: url("../image/about_us/trang2.png");
+        display: inline-block;
+        width: 49px;
+        height: 13px;
+        position: absolute;
+        left: 0;
+        bottom: -25px; }
+      .the_team .team_right p:nth-child(2):after {
+        content: url("../image/about_us/point.png");
+        display: inline-block;
+        width: 35px;
+        height: 5px;
+        position: absolute;
+        bottom: 24px;
+        margin-left: 10px; }
+    .the_team .team_right .members-img {
+      width: 100%;
+      height: 746px;
+      background: url("../image/about_us/about_bg3.jpg") 100% 100% no-repeat;
+      position: relative; }
+      .the_team .team_right .members-img .imag {
+        display: inline-block;
+        position: absolute;
+        background: #fff;
+        box-shadow: 0px 0px 30px #dddddd; }
+      .the_team .team_right .members-img .img1 {
+        padding: 38px 40px;
+        top: 104px;
+        left: -40px; }
+      .the_team .team_right .members-img .img2 {
+        padding: 36px 34px;
+        left: 325px;
+        top: 0px; }
+      .the_team .team_right .members-img .img3 {
+        padding: 32px 33px;
+        bottom: 82px;
+        left: 325px; }
+      .the_team .team_right .members-img .img4 {
+        padding: 34px 29px;
+        top: 138px;
+        right: 31px; }
+      .the_team .team_right .members-img .img5 {
+        padding: 32px 26px;
+        top: -126px;
+        right: 300px; }
+      .the_team .team_right .members-img .img6 {
+        padding: 29px 35px;
+        bottom: 215px;
+        right: 388px; }
+      .the_team .team_right .members-img .img7 {
+        padding: 25px 28px;
+        bottom: 27px;
+        right: 102px; }
+
+@media (max-width: 1880px) {
+  .chairman .introduction {
+    padding: 170px 140px 0 30px; } }
+@media (max-width: 1840px) {
+  .chairman .introduction {
+    padding: 170px 100px 0 30px; } }
+@media (max-width: 1800px) {
+  .chairman .chairman_img {
+    flex: 1; }
+
+  .chairman .chairman_center {
+    flex: 1; }
+
+  .the_team .team_left {
+    flex: 1;
+    margin-right: 5%; } }
+@media (max-width: 1780px) {
+  .the_team .team_left span {
+    left: 0px; } }
+@media (max-width: 1660px) {
+  .chairman {
+    padding-left: 50px; }
+
+  .chairman .chairman_img p {
+    font-size: 28px; }
+
+  .chairman .chairman_img span {
+    font-size: 38px; }
+
+  .chairman .chairman_img {
+    height: 640px;
+    padding: 45px 25px; }
+
+  .the_team .team_left span p {
+    font-size: 38px; }
+
+  .the_team .team_right {
+    flex: 1; }
+
+  .the_team .team_right .members-img .img6 {
+    bottom: 226px;
+    right: 312px; } }
+@media (max-width: 1530px) {
+  .chairman .chairman_img span {
+    font-size: 38px; }
+
+  .chairman .chairman_img {
+    flex: none;
+    width: 465px;
+    height: 620px;
+    padding: 40px 25px; }
+
+  .chairman .chairman_center {
+    flex: none;
+    width: 400px; }
+
+  .the_team .team_right .members-img .img1 {
+    padding: 34px 36px; }
+
+  .the_team .team_right .members-img .img1 > img {
+    width: 229px; }
+
+  .the_team .team_right .members-img .img2 {
+    padding: 33px 31px;
+    left: 300px;
+    top: 0px; }
+
+  .the_team .team_right .members-img .img2 > img {
+    width: 210px; }
+
+  .the_team .team_right .members-img .img3 {
+    padding: 32px 30px;
+    bottom: 90px;
+    left: 280px; }
+
+  .the_team .team_right .members-img .img3 > img {
+    width: 200px; }
+
+  .the_team .team_right .members-img .img4 {
+    padding: 30px 32px;
+    top: 70px;
+    right: 0; }
+
+  .the_team .team_right .members-img .img4 > img {
+    width: 230px; }
+
+  .the_team .team_right .members-img .img5 {
+    padding: 28px 24px;
+    top: -108px;
+    right: 261px; }
+
+  .the_team .team_right .members-img .img5 > img {
+    width: 170px; }
+
+  .the_team .team_right .members-img .img6 > img {
+    width: 146px; }
+
+  .the_team .team_right .members-img .img7 {
+    right: 62px; } }
+@media (max-width: 1480px) {
+  .the_team .team_right .members-img .img2 {
+    left: 226px; }
+
+  .the_team .team_right .members-img .img3 {
+    left: 264px; } }
+@media (max-height: 960px) {
+  .the_team .team_right {
+    padding-top: 30px; }
+
+  .the_team .team_right p {
+    margin-bottom: 5px; }
+
+  .the_team .team_right .members-img {
+    height: 720px; } }
+@media (max-height: 900px) {
+  .chairman .introduction {
+    padding-top: 120px; }
+
+  .the_team .team_right .members-img {
+    height: 680px; }
+
+  .the_team .team_right .members-img .img3 {
+    bottom: 30px; }
+
+  .the_team .team_right .members-img .img6 {
+    bottom: 140px; }
+
+  .the_team .team_right .members-img .img5 {
+    top: -72px; } }
+@media (max-height: 800px) {
+  .chairman .introduction {
+    padding-top: 120px; }
+
+  .the_team .team_right .members-img {
+    height: 650px; }
+
+  .the_team .team_right .members-img .img7 {
+    bottom: 0px; }
+
+  .the_team .team_right .members-img .img4 {
+    top: 43px; }
+
+  .the_team .team_right .members-img .img1 {
+    top: 116px; }
+
+  .the_team .team_right {
+    padding-top: 10px; }
+
+  .the_team .team_right p {
+    font-size: 24px; }
+
+  .the_team .team_right p:nth-child(2)::before {
+    bottom: -18px; } }
+@media (max-width: 1880px) {
+  .the_team .team_left {
+    width: 280px;
+    flex: none; }
+
+  .the_team .team_left span {
+    left: 8%; } }
+@media (max-width: 1700px) {
+  .the_team .team_left span {
+    left: 0; }
+
+  .the_team .team_right .members-img .img1 {
+    padding: 25px; }
+
+  .the_team .team_right .members-img .img2 {
+    padding: 25px; }
+
+  .the_team .team_right .members-img .img3 {
+    padding: 25px; }
+
+  .the_team .team_right .members-img .img4 {
+    padding: 25px; }
+
+  .the_team .team_right .members-img .img5 {
+    padding: 25px; }
+
+  .the_team .team_right .members-img .img6 {
+    padding: 25px; }
+
+  .the_team .team_right .members-img .img7 {
+    padding: 25px; } }
+
+/*# sourceMappingURL=about.css.map */

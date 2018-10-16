@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Brisk';
+    src: url('./font/BRISK.TTF');
+    src: url('./font/BRISK.TTF') format('truetype');
+}
+@font-face {
+    font-family: 'Califi';
+    src: url('./font/CALIFI.TTF');
+    src: url('./font/CALIFI.TTF') format('truetype');
+}
+@font-face {
+    font-family: 'Censcbk';
+    src: url('./font/CENSCBK.TTF');
+    src: url('./font/CENSCBK.TTF') format('truetype');
+}
+@font-face {
+    font-family: 'Dido';
+    src: url('./font/DIDOTBOLD.TTF');
+    src: url('./font/DIDOTBOLD.TTF') format('truetype');
+}
+@font-face {
+    font-family: 'Ftltlt';
+    src: url('./font/FTLTLT.TTF');
+    src: url('./font/FTLTLT.TTF') format('truetype');
+}
+@font-face {
+    font-family: 'Baskvill';
+    src: url('./font/BASKVILL.TTF');
+    src: url('./font/BASKVILL.TTF') format('truetype');
+}

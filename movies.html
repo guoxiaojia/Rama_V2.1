@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rama</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/movies.css">
+    <link rel="stylesheet" href="./css/slit-slider.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/libs/fullpage.min.js"></script>
+</head>
+
+<body id="movies_page">
+    <div id="pageContain">
+        <div class="page current">
+            <div class="contain banner">
+                <div class="banner-left">
+                    <h2 class="title">Movies</h2>
+                    <ul class="banner-menu">
+                        <li>
+                            <span onclick="javscript:runPage.go(1)">Upcoming Movies</span>
+                        </li>
+                        <li>
+                            <span onclick="javscript:runPage.go(2)">Recent Movies</span>
+                        </li>
+                        <li>
+                            <span onclick="javscript:runPage.go(3)">Past Past Movies</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="banner-right">
+                    <div class="bannerBox bannerCan businesscan">
+                        <div id="slitSlider" class="sl-slider-wrapper">
+                            <div class="sl-slider">
+                                <!-- single slide item -->
+                                <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2"
+                                    data-slice2-scale="2">
+                                    <div class="sl-slide-inner">
+                                        <div class="bg-img bg-img-1"></div>
+                                    </div>
+                                </div>
+                                <!-- /single slide item -->
+                                <!-- single slide item -->
+                                <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5"
+                                    data-slice2-scale="1.5">
+                                    <div class="sl-slide-inner">
+                                        <div class="bg-img bg-img-2"></div>
+                                    </div>
+                                </div>
+                                <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5"
+                                    data-slice2-scale="1.5">
+                                    <div class="sl-slide-inner">
+                                        <div class="bg-img bg-img-3"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /sl-slider -->
+                            <nav id="nav-arrows" class="nav-arrows">
+                                <span class="nav-arrow-prev">
+                                    <img src="image/to_prev.png" />
+                                </span>
+                                <span class="nav-arrow-next">
+                                    <img src="image/to_next.png" />
+                                </span>
+                            </nav>
+
+                            <nav id="nav-dots" class="nav-dots">
+                                <span class="nav-dot-current"></span>
+                                <span></span>
+                                <span></span>
+                            </nav>
+                        </div>
+                        <!-- /slider-wrapper -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 即将上映 upcoming_mov -->
+        <div class="page">
+            <div class="contain upcoming_mov">
+                <!-- tablist -->
+                <ul class="tab-btn" role="tablist" id="upcoming_list">
+
+                </ul>
+                <!-- tab_container -->
+                <div class="tab_container">
+                    <div class="tab_container_inner" id="upcoming">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /即将上映 upcoming_mov -->
+
+        <!-- 最近的电影  recent_mov-->
+        <div class="page">
+            <div class="contain recent_mov">
+                <!-- tablist -->
+                <ul class="tab-btn" role="tablist" id="recent_list">
+
+                </ul>
+                <!-- tab_container -->
+                <div class="tab_container">
+                    <div class="tab_container_inner" id="recent">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /最近的电影 recent_mov -->
+
+
+        <!-- 过去的电影 past_mov -->
+        <div class="page">
+            <div class="contain past_mov">
+                <!-- tablist -->
+                <ul class="tab-btn" role="tablist" id="past_list">
+
+                </ul>
+                <!-- tab_container -->
+                <div class="tab_container">
+                    <div class="tab_container_inner" id="past">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /过去的电影 past_mov -->
+    </div>
+
+    <div id="navBox">
+        <div class="navInfo">
+            <div class="menuIcon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <ul id="navBar">
+            <li>
+                <span>Home</span>
+            </li>
+            <li>
+                <span>Upcoming Movies</span>
+            </li>
+            <li>
+                <span>Recent Movies</span>
+            </li>
+            <li>
+                <span>Past Past Movies</span>
+            </li>
+        </ul>
+    </div>
+    <div class="menu">
+        <div class="menu-content">
+            <div class="menu-close">
+                <i class="icon-close"></i>
+            </div>
+            <div class="menu-list">
+                <ul class="menu-nav">
+                    <li>
+                        <div class="name">
+                            <a href="./index.html">
+                                <span>HOME</span>
+                                <em>01</em>
+                            </a>
+                        </div>
+                        
+                    </li>
+                    <li>
+                        <div class="name">
+                            <a href="./business.html">
+                                <span>BUSINESS<i></i></span>
+                                <em>02</em>
+                            </a>
+                            <ul class="child">
+                                <li class="active"><a href="./business.html?page=1">Chairman Address</a></li>
+                                <li><a href="./business.html?page=2">HEALTH CARE</a></li>
+                                <li><a href="./business.html?page=3">EDUCATION</a></li>
+                                <li><a href="./business.html?page=4">Movie Theme Cafe's</a></li>
+                                <li><a href="./business.html?page=5">PARTNERS</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="name">
+                            <a href="./entertainment.html">
+                                <span>ENTERTAINMENT<i></i></span>
+                                <em>03</em>
+                            </a>
+                            <ul class="child">
+                                <li><a href="./entertainment.html?page=1">Entertainment </a></li>
+                                <li><a href="./entertainment.html?page=2">RAMA APP</a></li>
+                                <li><a href="./entertainment.html?page=4">RAMA REELS</a></li>
+                                <li><a href="./entertainment.html?page=5">rama china</a></li>
+                                <li><a href="./entertainment.html?page=6">Royal Asian Movie Awards</a></li>
+                            </ul>
+                        </div>
+                       
+                    </li>
+                    <li>
+                        
+                        <div class="name">
+                            <a href="./movies.html">
+                                <span>MOVIES<i></i></span>
+                                <em>04</em>
+                            </a>
+                            <ul class="child">
+                                <li><a href="./movies.html?page=1">UPCOMING MOVIES</a></li>
+                                <li><a href="./movies.html?page=2">RECENT MOVIES</a></li>
+                                <li><a href="./movies.html?page=3">PAST PAST MOVIES</a></li>
+                            </ul>                       
+                        </div>
+                        
+                    </li>
+                    <li>
+                        
+                        <div class="name">
+                            <a href="./news.html">
+                                <span>NEWS</span>
+                                <em>05</em>
+                            </a>
+                        </div>
+                        
+                    </li>
+                    <li>
+                        <div class="name">
+                            <a href="./about.html">
+                                <span>ABOUT US<i></i></span>
+                                <em>06</em>
+                            </a>
+                            <ul class="child">
+                                <li><a href="./about.html?page=1">CHAIRMAN</a></li>
+                                <li><a href="./about.html?page=2">MANAGEMENT TEAM</a></li>
+                            </ul>
+                        </div>
+                        
+                    </li>
+                </ul>
+                <div class="contact-us">
+                    <div class="contact-content">
+                        <img src="image/contact-logo.png" alt="">
+                        <div class="contact-part">
+                            <h1>Contact</h1>
+                            <p>info@rama.world.com</p>
+                        </div>
+                        <div class="contact-part">
+                            <h1>Getin Touch</h1>
+                            <ul class="way">
+                                <li><a href="javascript:;"><img src="image/icon/icon1.png" alt=""></a></li>
+                                <li><a href="javascript:;"><img src="image/icon/icon2.png" alt=""></a></li>
+                                <li><a href="javascript:;"><img src="image/icon/icon3.png" alt=""></a></li>
+                                <li><a href="javascript:;"><img src="image/icon/icon4.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="menu-footer">
+            <p>© 2018 All Copy rights reseved by Rama Reels.</p>
+        </div>
+    </div>
+    <script>
+        var domBanner =
+            `
+        <div class="bannerBox bannerCan businesscan">
+            <div id="slitSlider" class="sl-slider-wrapper">
+                <div class="sl-slider">
+                    <!-- single slide item -->
+                <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2"
+                data-slice2-scale="2">
+                <div class="sl-slide-inner">
+                <div class="bg-img bg-img-1"></div>
+                </div>
+                </div>
+                <!-- /single slide item -->
+                <!-- single slide item -->
+                <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5"
+                data-slice2-scale="1.5">
+                <div class="sl-slide-inner">
+                <div class="bg-img bg-img-2"></div>
+                </div>
+                </div>
+                <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5"
+                data-slice2-scale="1.5">
+                <div class="sl-slide-inner">
+                <div class="bg-img bg-img-3"></div>
+                </div>
+                </div>
+                </div>
+                <!-- /sl-slider -->
+                <nav id="nav-arrows" class="nav-arrows">
+                <span class="nav-arrow-prev"><img src="image/to_prev.png" /></span>
+                <span class="nav-arrow-next"><img src="image/to_next.png" /></span>
+                </nav>
+
+                <nav id="nav-dots" class="nav-dots">
+                <span class="nav-dot-current"></span>
+                <span></span>
+                <span></span>
+                </nav>
+                </div>
+                <!-- /slider-wrapper -->
+                </div>
+                `;
+    </script>
+    <script src="./js/menu.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/jquery.slitslider.js"></script>
+    <script src="js/jquery.ba-cond.min.js"></script>
+    <script>
+        var runPage;
+        var page;
+        if (~location.href.indexOf('page')) {
+            page = Number(location.href.substr(-1));
+        }
+        runPage = new FullPage({
+            id: 'pageContain',
+            slideTime: 800,
+            effect: {
+                transform: {
+                    translate: 'X'
+                },
+                opacity: [0, 1]
+            },
+            mode: 'wheel, touch, nav:navBar',
+            easing: 'ease',
+            start: page,
+            callback: function (index) {
+                if (index + 1 == 1) {
+                    $('.banner-right').empty().append(domBanner);
+                    var Page = (function () {
+                        var $navArrows = $('#nav-arrows'),
+                            $nav = $('#nav-dots > span'),
+                            $slideLen = $(".sl-slider-wrapper").find('.sl-slide').length,
+                            slitslider = $('#slitSlider').slitslider({
+                                speed: 1600,
+
+                                onBeforeChange: function (slide, pos) {
+
+                                    $nav.removeClass('nav-dot-current');
+                                    $nav.eq(pos).addClass('nav-dot-current');
+
+                                }
+                            }),
+
+                            init = function () {
+                                if ($slideLen == 1) {
+                                    $navArrows.css('display', 'none')
+                                }
+                                initEvents();
+                            },
+                            initEvents = function () {
+                                // add navigation events
+                                // console.log($navArrows.length);
+
+                                $navArrows.children(':last').on('click', function () {
+                                    console.log('last')
+                                    slitslider.next();
+                                    return false;
+                                });
+
+                                $navArrows.children(':first').on('click', function () {
+                                    console.log('first')
+                                    slitslider.previous();
+                                    return false;
+                                });
+
+                                $nav.each(function (i) {
+                                    $(this).on('click', function (event) {
+                                        var $dot = $(this);
+                                        if (!slitslider.isActive()) {
+                                            $nav.removeClass('nav-dot-current');
+                                            $dot.addClass('nav-dot-current');
+                                        }
+
+                                        slitslider.jump(i + 1);
+                                        return false;
+
+                                    });
+                                });
+
+                            };
+                        return {
+                            init: init
+                        };
+                    })();
+
+                    Page.init();
+                }
+            }
+        });
+        var Page = (function () {
+            var $navArrows = $('#nav-arrows'),
+                $nav = $('#nav-dots > span'),
+                $slideLen = $(".sl-slider-wrapper").find('.sl-slide').length,
+                slitslider = $('#slitSlider').slitslider({
+                    speed: 1600,
+
+                    onBeforeChange: function (slide, pos) {
+
+                        $nav.removeClass('nav-dot-current');
+                        $nav.eq(pos).addClass('nav-dot-current');
+
+                    }
+                }),
+
+                init = function () {
+                    if ($slideLen == 1) {
+                        $navArrows.css('display', 'none')
+                    }
+                    initEvents();
+                },
+                initEvents = function () {
+                    // add navigation events
+                    // console.log($navArrows.length);
+
+                    $navArrows.children(':last').on('click', function () {
+                        console.log('last')
+                        slitslider.next();
+                        return false;
+                    });
+
+                    $navArrows.children(':first').on('click', function () {
+                        console.log('first')
+                        slitslider.previous();
+                        return false;
+                    });
+
+                    $nav.each(function (i) {
+                        $(this).on('click', function (event) {
+                            var $dot = $(this);
+                            if (!slitslider.isActive()) {
+                                $nav.removeClass('nav-dot-current');
+                                $dot.addClass('nav-dot-current');
+                            }
+
+                            slitslider.jump(i + 1);
+                            return false;
+
+                        });
+                    });
+
+                };
+            return {
+                init: init
+            };
+        })();
+
+        Page.init();
+    </script>
+</body>
+
+</html>
+
+
+<script>
+    $(function () {
+        //默认
+        $(".tab_container .tab_container_inner").find(".tab_content").eq(0).css('zIndex', '99');
+
+        $("#movies_page .page .tab-btn").on("click", "li>a", function (e) {
+            e.preventDefault();
+            $(this).parents("li").addClass("active").siblings("li").removeClass("active");
+            var theTitle = $(this).attr('title');
+            // console.log(theTitle);
+            $(this).parents(".contain").children(".tab_container").find(".tab_content").hide();
+            $(this).parents(".contain").children(".tab_container").find("#" + theTitle).fadeIn();
+        });
+
+        //请求数据
+        $.ajax({
+            type: "GET",
+            url: "./moviesData/movies.json",
+            dataType: 'json',
+            success: function (data) {
+                if (data.code === 0) {
+                    var upcoming = '';
+                    var recent = '';
+                    var past = '';
+                    for (var i = 0; i < data.data.length; i++) {
+                        for (var keys in data.data[i]) {
+                            if (keys === "upcoming") {
+                                upcoming = render(data.data[i][keys], 'upcoming') //执行渲染数据的方法
+                                upcomingList = renderTablist(data.data[i][keys], 'upcoming');
+                            }
+                            if (keys === "recent") {
+                                recent = render(data.data[i][keys], 'recent') //执行渲染数据的方法
+                                recentList = renderTablist(data.data[i][keys], 'recent');
+                                //console.log(data.data[i][keys]);
+                            }
+                            if (keys === "past") {
+                                past = render(data.data[i][keys], 'past') //执行渲染数据的方法
+                                pastList = renderTablist(data.data[i][keys], 'past');
+                                //console.log(data.data[i][keys]);
+                            }
+                        }
+                    }
+                    // page 1
+                    $("#upcoming_list").append(upcomingList);
+                    $('#upcoming').append(upcoming);
+                    // page 2
+                    $("#recent_list").append(recentList);
+                    $('#recent').append(recent);
+                    // page 3
+                    $("#past_list").append(pastList);
+                    $('#past').append(past);
+                } else {
+                    console.log('$$$')
+                }
+            },
+            error: function () {
+                console.log('数据请求失败');
+            }
+        })
+
+    }) //$(function) end
+
+    function renderTablist(data, cate) {
+        var list = ""
+        //      console.log(data);
+        for (var j = 0; j < data.length; j++) {
+            //				console.log(data.length);
+            for (var key in data[j]) {
+                var keyword = cate + "_lan_" + key; //作为tablist的title  和  tab_content的id ；
+                if (j == 0) {
+                    list +=
+                        `<li class="active"><a class="tab_tit" href="#" title=${keyword} data-toggle="tab">${key}</a></li>`;
+                } else {
+                    list += `<li><a class="tab_tit" href="#" title=${keyword} data-toggle="tab">${key}</a></li>`;
+                }
+            }
+        }
+        return list;
+    }
+
+    /*render content*/ // 渲染数据的方法
+    function render(data, cate) {
+        var content = '';
+
+        for (var j = 0; j < data.length; j++) {
+            for (var key in data[j]) {
+
+                var keyword = cate + "_lan_" + key; //作为tablist的title  和  tab_content的id ；
+
+                content +=
+                    `
+                        	<div class="tab_content" id="${keyword}">
+						`
+                //左右控制键
+                var btn_warpper = '';
+                if (data[j][key].length > 4) { //左右控制键 
+                    //              	console.log(Math.ceil(data[j][key].length/4));
+                    //              	var pageCount=Math.ceil(data[j][key].length/4);
+                    btn_warpper =
+                        `
+                        <span class="prev btn_control dis">
+                        	<img src="./image/movies/prev.png" parentCate="${cate}" cate="${key}"  pageid="1" onclick="getPagePrev(this,${data[j][key].length})" />
+        				</span>
+                        <span class="next btn_control">
+                        	<img src="./image/movies/next.png"  parentCate="${cate}" cate="${key}" pageid="2" onclick="getPageNext(this,${data[j][key].length})"/>
+        				</span>
+                        `
+                } else {
+                    btn_warpper = "";
+                }
+                content += btn_warpper;
+
+                //var 底部总页数指示条
+                content += `<div class='line-box'> <ol class='line-list'>`;
+                var the_line = ""
+                if (data[j][key].length > 4) {
+                    var pageCount = Math.ceil(data[j][key].length / 4);
+                    for (var i = 0; i < pageCount; i++) {
+                        var line = ""
+                        if (i == 0) {
+                            line = `<li class="current"></li>`;
+                        } else {
+                            line = `<li></li>`;
+                        }
+                        the_line += line;
+                    }
+                }
+                content += the_line;
+
+
+                content += `</ol></div>  <div class='movies-info'>`;
+
+                var tempArr = [];
+                if (data[j][key].length > 4) { //如果某种语言的电影数，大于4  
+                    tempArr = data[j][key];
+                    content += paging(tempArr);
+                } else {
+                    for (var k = 0; k < data[j][key].length; k++) {
+                        var info = '';
+                        info +=
+                            `
+                            <div class="the_movie">
+                                <div class="the_img">
+                                    <img src="./image/movies/${data[j][key][k].image}" />
+                                </div>
+                                <div class="the_info">
+                                    <span class="the_lan">
+                                        <p>${data[j][key][k].title}</p>
+                                    </span>
+                                    <div class="msg">
+                            `;
+
+                        var info_text = '';
+
+                        for (var l = 0; l < data[j][key][k].text.length; l++) {
+                            info_text +=
+                                `
+                                    <p>${data[j][key][k].text[l]}</p>
+                                    
+                                `;
+                        }
+
+
+                        info_text +=
+                            `
+	                                    </div>
+	                                </div>
+	                            </div>
+                            `;
+
+                        info += info_text;
+
+                        content += info;
+
+                    }
+                }
+
+                content += `</div></div>`;
+            }
+        }
+        return content;
+    }
+
+
+    /*currentPaging*/
+    function paging(arr, pageid) {
+
+        var count = arr.length; //记录总条数
+        var PageSize = 4; //记录每页条数
+        var currentPage = Number(pageid) || 1; //当前页面，默认为第一页
+        var info_page = '';
+        var sizePage = PageSize * currentPage > count ? count : PageSize * currentPage;
+
+        for (var i = (currentPage - 1) * PageSize; i < sizePage; i++) {
+            info_page +=
+                `<div class="the_movie">
+                                <div class="the_img">
+                                    <img src="./image/movies/${arr[i].image}" />
+                                </div>
+                                <div class="the_info">
+                                    <span class="the_lan">
+                                        <p>${arr[i].title}</p>
+                                    </span>
+                                    <div class="msg">`;
+            var info_text_page = '';
+            for (var l = 0; l < arr[i].text.length; l++) {
+                info_text_page +=
+                    `
+                            <p>${arr[i].text[l]}</p>
+                        `;
+            }
+            info_text_page +=
+                `              </div>
+	                        </div>
+	                    </div>
+                    `;
+            info_page += info_text_page;
+        }
+        return info_page
+    }
+
+    //获取上一页的数据  Get the data from the previous page
+    function getPagePrev(_self, count) {
+        //$(_self).parent()   按实际情况修改节点
+        if ($(_self).parent().attr('class').indexOf('dis') > -1) {
+            return false;
+        }
+        var pageid = Number($(_self).attr('pageid'));
+        var PageCount = Math.ceil(count / 4); //记录总页数
+        _ajax(_self, pageid, $(_self).attr('cate'), $(_self).attr('parentcate'));
+
+        //改变底部中间的小线条的样式
+        for (var i = 0; i < PageCount; i++) {
+            if (i == pageid - 1) {
+                //根据实际情况修改节点
+                $(_self).parent().siblings(".line-box").children(".line-list").find("li").eq(i).addClass("current").siblings()
+                    .removeClass("current");
+            }
+        }
+
+        if (pageid == 1) {
+            $(_self).parent().addClass('dis');
+            $(_self).parent().next().removeClass('dis');
+            $(_self).parent().next().find('img').attr('pageid', pageid + 1);
+            return false;
+        }
+        $(_self).parent().next().removeClass('dis');
+        $(_self).parent().next().find('img').attr('pageid', pageid + 1);
+        pageid--;
+        $(_self).attr('pageid', pageid);
+    }
+
+
+    //获取下一页的数据  8/5000 Gets the data for the next page
+    function getPageNext(_self, count) {
+        //$(_self).parent()   按实际情况修改节点   	
+        if ($(_self).parent().attr('class').indexOf('dis') > -1) {
+            return false;
+        }
+        var pageid = Number($(_self).attr('pageid'));
+        var PageCount = Math.ceil(count / 4); //记录总页数
+        _ajax(_self, pageid, $(_self).attr('cate'), $(_self).attr('parentcate')); //请求数据
+
+        //改变底部中间的小线条的样式
+        for (var i = 0; i < PageCount; i++) {
+            if (i == pageid - 1) {
+                //按实际情况修改节点 
+                $(_self).parent().siblings(".line-box").children(".line-list").find("li").eq(i).addClass("current").siblings()
+                    .removeClass("current");
+            }
+        }
+
+        if (pageid == PageCount) {
+            $(_self).parent().addClass('dis');
+            $(_self).parent().prev().removeClass('dis');
+            $(_self).parent().prev().find('img').attr('pageid', pageid - 1);
+            return false;
+        }
+        $(_self).parent().prev().removeClass('dis');
+        $(_self).parent().prev().find('img').attr('pageid', pageid - 1);
+        pageid++;
+        $(_self).attr('pageid', pageid);
+    }
+
+
+    //请求数据上一页或下一页的数据  Request data from previous or next pages
+    function _ajax(_self, pageid, cate, parentcate) {
+        //console.log("_AJAX")
+        var self = _self;
+        var pageid = pageid;
+        var cate = cate;
+        var parentcate = parentcate;
+        $.ajax({
+            url: './moviesData/movies.json', //需要按实际情况修改
+            data: 'json',
+            success: function (data) {
+                var newCate = [];
+                if (data.code === 0) {
+                    for (var i = 0; i < data.data.length; i++) {
+                        for (var key in data.data[i]) {
+                            if (key == parentcate) {
+                                for (var j = 0; j < data.data[i][key].length; j++) {
+                                    for (var k in data.data[i][key][j]) {
+                                        if (k == cate) {
+                                            newCate = data.data[i][key][j][k];
+                                            var newpage = paging(newCate, pageid);
+                                            //需要按实际情况修改
+                                            $(self).parent().siblings('.movies-info').empty().append(
+                                                newpage);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        })
+    }
+</script>

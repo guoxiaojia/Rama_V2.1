@@ -1,0 +1,94 @@
+.loginContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-left: 69px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0; }
+  .loginContent .left {
+    width: 56%;
+    height: 100%;
+    text-align: center;
+    background: url(../image/login-bg.png) left top;
+    background-size: cover;
+    position: relative; }
+    .loginContent .left span {
+      color: #fff;
+      font-size: 64px;
+      position: absolute;
+      top: 50%;
+      left: 32%; }
+  .loginContent .right {
+    width: 59%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    display: flex; }
+    .loginContent .right .tab-title {
+      color: #fff;
+      text-align: center;
+      width: 220px;
+      height: 100%;
+      margin-bottom: 10px; }
+      .loginContent .right .tab-title li {
+        height: 50%;
+        margin-bottom: 10px;
+        background: rgba(43, 45, 55, 0.9);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px; }
+        .loginContent .right .tab-title li:hover {
+          cursor: pointer; }
+        .loginContent .right .tab-title li.active span:before {
+          display: block;
+          content: '';
+          width: 1px;
+          height: 66px;
+          background: #fff;
+          margin: 0 auto;
+          margin-bottom: 16px; }
+        .loginContent .right .tab-title li.active span:after {
+          display: block;
+          content: '';
+          width: 1px;
+          height: 66px;
+          background: #fff;
+          margin: 0 auto;
+          margin-top: 16px; }
+    .loginContent .right .tab-con {
+      background: #fff;
+      width: 80%; }
+      .loginContent .right .tab-con .hide {
+        display: none; }
+      .loginContent .right .tab-con .con {
+        height: 100%; }
+        .loginContent .right .tab-con .con form {
+          height: 100%;
+          padding: 200px; }
+          .loginContent .right .tab-con .con form .form-group {
+            border-bottom: 1px solid #1c31b1;
+            margin-bottom: 50px; }
+            .loginContent .right .tab-con .con form .form-group label {
+              display: block;
+              font-size: 20px;
+              color: #000; }
+            .loginContent .right .tab-con .con form .form-group input {
+              width: 100%;
+              background: transparent;
+              outline: medium;
+              border: none;
+              padding: 30px 0 8px; }
+          .loginContent .right .tab-con .con form .bottom-but button {
+            width: 100%;
+            height: 50px;
+            background: #ffa736;
+            border: none;
+            outline: medium;
+            color: #fff;
+            font-size: 20px;
+            border-radius: 6px; }
+
+/*# sourceMappingURL=login.css.map */
